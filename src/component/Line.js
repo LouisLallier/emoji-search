@@ -5,11 +5,11 @@ const Line = ({ search }) => {
     <div>
       {datas
         .filter((data) => data.keywords.includes({ search }))
-        .map((datas) => {
+        .map((data) => {
           return (
             <div className="mb-6 flex items-center gap-4">
-              <div className=" text-2xl">{datas.symbol}</div>
-              <h1 className="text-xl">{datas.title}</h1>
+              <div className=" text-2xl">{data.symbol}</div>
+              <h1 className="text-xl">{data.title}</h1>
             </div>
           );
         })}
