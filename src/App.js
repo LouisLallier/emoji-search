@@ -3,7 +3,7 @@ import Line from "./component/Line";
 import { useState } from "react";
 
 const App = () => {
-  const [search, setSearch] = useState("");
+  const [search, setSearch] = useState("smiley");
 
   return (
     <div className="App">
